@@ -1,3 +1,5 @@
+var audio = new Audio('/sons/teste-alert.mp3');
+
 class Util {
     static convertMS(ms) {
         var d, h, m, s;
@@ -29,7 +31,7 @@ class Util {
         if (obj.h > 0) {
             return Util.addZ(obj.h) + "H " + Util.addZ(obj.m) + "M";
         }
-        return Util.addZ(obj.m) + "M " + Util.addZ(obj.s) + "S";
+        return Util.addZ(obj.m) + ": " + Util.addZ(obj.s) + "";
     }
 }
 
@@ -58,6 +60,8 @@ class Countdown {
         }, self.diff);
     }
     
+
+
     initTimer() {
         var self = this;
         self.timer = setInterval(function() {
@@ -66,6 +70,7 @@ class Countdown {
             if (self.diff > 0) {
                 self.$txt.text(Util.formatTime(Util.convertMS(self.diff)));
             } else {
+                audio.play();
                 self.$txt.text("Acabou o tempo!!!");
                 clearInterval(self.timer);
             }
