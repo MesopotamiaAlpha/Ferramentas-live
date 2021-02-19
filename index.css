@@ -1,0 +1,25 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  padding: 30px;
+}
+
+.c-text {
+  position: absolute;
+  width: 200%;
+  color: black;
+  font-size: 90px;
+  line-height: 100px;
+  text-align: center;
+  top: 28%;
+  margin-top: -15px;
+  margin-left: 290px;
+  font-weight: bolder;
+}
+.c-container {
+  position: relative;
+  width: 180px;
+}
+
+svg {
+  width: 500%;
+}
