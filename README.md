@@ -2,7 +2,7 @@
 
 <p>Durante a live necessitamos de um timer para controlar o tempo onde os viwers fosse jogar com a livi, então elaboramos este timer simples para ajudar no processo<p>
 
-<h2>Funções e detalhes<h2>
+<h2>Funções e detalhes</h2>
 
 <p>Para configurar o tempo é necessario ir dentro do index.js e editar esta linha de codigo:<p>
 
