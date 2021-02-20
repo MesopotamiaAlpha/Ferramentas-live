@@ -1,4 +1,4 @@
-<h1>Projeto timer para a live da Livianormal</h1>
+<h1>Projeto timer para a live da <a href="www.twitch.tv/livianormal">Livianormal</a></h1>
 
 <p>Durante a live necessitamos de um timer para controlar o tempo onde os viwers fosse jogar com a livi, então elaboramos este timer simples para ajudar no processo<p>
 
