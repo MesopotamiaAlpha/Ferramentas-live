@@ -1,4 +1,4 @@
-var audio = new Audio('/sons/teste-alert.mp3');
+var audio = new Audio('/sons/alert-final.mov');
 
 class Util {
     static convertMS(ms) {
@@ -17,7 +17,7 @@ class Util {
             m: m,
             s: s
         };
-    };
+    }
 
     static addZ(n) {
         if (!n) return "00";
@@ -69,7 +69,7 @@ class Countdown {
             self.diff = self.end.diff(self.now);
             if (self.diff > 0) {
                 self.$txt.text(Util.formatTime(Util.convertMS(self.diff)));
-            } else {
+            }else {
                 audio.play();
                 self.$txt.text("Acabou o tempo!!!");
                 clearInterval(self.timer);
