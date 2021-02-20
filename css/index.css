@@ -4,6 +4,7 @@ body{
   font-family: 'Orbitron', sans-serif;
   display: flex;
   justify-content: flex-start;
+  padding-top: 20px;
 }
 
 .c-text {
@@ -27,15 +28,12 @@ body{
 
   /* Set neon color */
   --neon-text-color: rgb(255, 0, 242);
-  --neon-border-color: rgb(0, 68, 255);
 }
 
 
 .glow {
   font-style: italic;
-  color: rgb(255, 0, 242);
-  border: 0.4rem solid #fff;
-  border-radius: 2rem;
+  color: #fff;
   text-transform: uppercase;
   animation: flicker 1.5s infinite alternate;     
 }
