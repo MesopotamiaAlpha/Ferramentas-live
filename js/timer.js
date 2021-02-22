@@ -1,4 +1,4 @@
-var audio = new Audio('/sons/alert-final.mov');
+var audio = new Audio('/sons/alert-final2.mov');
 
 class Util {
     static convertMS(ms) {
