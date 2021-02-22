@@ -81,3 +81,4 @@ class Countdown {
 $(function() {
     var yeah = new Countdown({minutes: 0, seconds: 15}, $(".c-container"));
 })
+
