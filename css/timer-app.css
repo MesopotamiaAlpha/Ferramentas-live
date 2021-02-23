@@ -76,3 +76,22 @@
       0 0 4rem var(--neon-border-color), inset 0 0 4rem var(--neon-border-color);
   }
 }
+
+
+.piscar {
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		opacity: 100%;
+	}
+
+	70% {
+		opacity: 20%;
+	}
+
+	100% {
+		opacity: 100%;
+	}
+}
