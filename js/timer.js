@@ -71,7 +71,6 @@ class Countdown {
                 self.$txt.text(Util.formatTime(Util.convertMS(self.diff)));
             }else {
                 audio.play();
-                piscar();
                 self.$txt.text("Acabou o tempo!!!");
                 clearInterval(self.timer);
             }
@@ -83,7 +82,3 @@ $(function() {
     var yeah = new Countdown({minutes: 0, seconds: 15}, $(".c-container"));
 })
 
-function piscar(){
-    const classe = document.querySelector('.c-container');
-    classe.setAttribute("class","c-container piscar");
-}
