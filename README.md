@@ -1,17 +1,24 @@
-<h1>Projeto timer para a live da <a href="https://www.twitch.tv/livianormal">Livianormal</a></h1>
+# ferramentas-live
 
-<p>Durante a live necessitamos de um timer para controlar o tempo onde os viwers fosse jogar com a livi, então elaboramos este timer simples para ajudar no processo<p>
+## Project setup
+```
+npm install
+```
 
-<h2>Funções e detalhes</h2>
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-<p>Para configurar o tempo é necessario ir dentro do index.js e editar esta linha de codigo:<p>
+### Compiles and minifies for production
+```
+npm run build
+```
 
-    var yeah = new Countdown({minutes: 0, seconds: 15}, $(".c-container"));
+### Lints and fixes files
+```
+npm run lint
+```
 
-<p>Edite os minutos e os segundos para que o timer tenha o tempo que necessita<p>
-
-<p>Para resetar o timer é só clicar no texto que ele reseta<p>
-
-<p>Para alterar o som adicione o novo som dentro da pasta sons e edite esta linha com o nome do novo arquivo: <p>
-
-    var audio = new Audio('/sons/alert-final.mov');
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
