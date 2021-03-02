@@ -1,0 +1,58 @@
+svg{
+    
+}
+
+
+#contorno-fora{
+    fill: rgb(209, 189, 10);
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+#olho-direito{
+    fill: red;
+}
+
+#olho-esquerdo{
+    fill: red;
+}
+#caveira-direita{
+    fill: rgba(0, 0, 0, 0.555);
+}
+
+#contorno-olho-esquerdo{
+    fill: black;
+}
+
+#contorno-olho-direito{
+    fill: black;
+}
+
+#caveira-esquerda{
+    fill: rgba(0, 0, 0, 0.555);
+}
+
+#detalhe-superior-esquerdo{
+    fill: red;
+}
+
+#detalhe-superior-direita{
+    fill: red;
+}
+
+#detalhe-centro{
+    fill: rgb(53, 51, 51);
+}
+
+#detalhe-centro-meio{
+    fill: rgb(236, 222, 21);
+}
+
+#detalhe-baixo{
+    fill: black;
+}
+
+@keyframes example {
+    from {fill: rgb(209, 189, 10);}
+    to {fill: rebeccapurple;}
+}
