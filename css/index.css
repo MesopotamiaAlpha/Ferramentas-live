@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
 * {
     padding:0;
     margin:0;
@@ -8,6 +10,8 @@
 
 body{
 	background-color: #8206f754;
+	font-family: 'DotGothic16', sans-serif;
+	font-weight: bold;
 }
 
 
@@ -42,6 +46,8 @@ body{
 .descricao{
 	margin-top: 30px;
 	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
@@ -59,7 +65,7 @@ body{
 
 /* Botões*/
 :root {
-	--font: 1rem/1.2 "helvetica", sans-serif;
+	--font: 20px/1.2 'DotGothic16', sans-serif;
 	--bg-hover: linear-gradient(
 		135deg,
 		#9048f9 0%,
@@ -77,15 +83,16 @@ body{
 .btn {
 	display: table;
 	text-align: center;
-	color: #ffffff;
+	color: black;
 	text-decoration: none;
 	position: relative;
 	font: var(--font);
-	font-weight: bold;
+	font-weight: bolder;
 	padding: 22px 40px;
 	background-color: var(--btn-color);
 	overflow: hidden;
 	margin: 24px;
+	font-size: 23px;
 }
 
 .--animated {
