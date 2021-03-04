@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+* {
+	font-family: 'DotGothic16', sans-serif;
+	font-weight: bold;
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-size: 17px;
+}
+
+.barra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: 65px;
+    background-color: blueviolet;
+    margin-bottom: 3%;
+	text-align: center;
+}
+
+.cofiguracoes{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-content: center;
+    flex-direction: row;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 22px;
+    width: 50%;
+    background-color: blueviolet;
+    margin-bottom: 3%;
+    font-weight: 36px;
+}
+
+#inputNome{
+    border: 2px solid #000;
+    text-align: center;
+}
+
+#saveButton{
+    border: 2px solid #000;
+    padding-left: 9px;
+    padding-right: 9px;
+}

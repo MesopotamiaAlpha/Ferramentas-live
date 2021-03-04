@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de agradecimentos</title>
 
+    <link rel="stylesheet" href="css/agradecimentos.css">
     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
@@ -13,12 +14,27 @@
 
 </head>
 <body>
-    
-    <h1 id="nomeOutput">Campos para registro dentro do banco de dados</h1>
-    <p>Registrar no banco de dados</p>
-    <input type="text" placeholder="nome" id="inputNome">
-    <button id="saveButton">Enviar</button>
-    
+
+    <section class="barra">
+        <h1>Barra superior</h1>
+        <a href="index.html">Voltar</a>
+    </section>
+
+    <section class="cofiguracoes">
+        <h2 id="nomeOutput">Nomes dos Subs</h2>
+        <input type="text" placeholder="nome" id="inputNome">
+        <button id="saveButton">Enviar</button>
+
+    </section>
+
+
+    <section class="app">
+
+        <iframe width="950" height="350" src="agradecimentos-app.html"></iframe>
+
+
+</section>
+
 
     <script src="js/cadastro.js"></script>
 
