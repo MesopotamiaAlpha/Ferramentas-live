@@ -43,13 +43,19 @@ body{
     border-radius: 22px;
 }
 
+.titulo{
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 5%;
+}
+
 .descricao{
 	margin-top: 30px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	margin-bottom: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-flow: wrap;
     align-content: center;
     flex-direction: row;

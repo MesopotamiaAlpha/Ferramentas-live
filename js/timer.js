@@ -87,3 +87,4 @@ function piscar(){
     const classe = document.querySelector('.c-container');
     classe.setAttribute("class","c-container piscar");
 }
+

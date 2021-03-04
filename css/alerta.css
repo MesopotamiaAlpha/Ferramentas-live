@@ -2,11 +2,8 @@ svg{
     
 }
 
-
 #contorno-fora{
-    fill: rgb(209, 189, 10);
-    animation-name: example;
-    animation-duration: 4s;
+    fill: red;
 }
 
 #olho-direito{
@@ -50,9 +47,4 @@ svg{
 
 #detalhe-baixo{
     fill: black;
-}
-
-@keyframes example {
-    from {fill: rgb(209, 189, 10);}
-    to {fill: rebeccapurple;}
 }
