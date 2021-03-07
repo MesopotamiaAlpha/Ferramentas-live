@@ -21,3 +21,5 @@
 <p>Fururamente tambem vamos abrir um canal para sugestões de novas ferramentas, mas de momento vamos aprender a criar novas ferramentas para depois crescer!</p>
 
 <p>Biblioteca usada para animação do svg = http://snapsvg.io/</p>
+
+<p>Banco de dados usado de momento é MongoDb</p>

@@ -1,4 +1,6 @@
 
+
+var variavel;
 //na linha de baixo ele vai criar a coleção com o documento nome
 const docRef = firestore.doc("nomes/subs");
 
@@ -29,8 +31,10 @@ saveButton.addEventListener("click", function() {
 
 
     function recuperarNomes(){
-        async getMarker() {
-            const snapshot = await firebase.firestore().collection('events').get()
-            return snapshot.docs.map(doc => doc.data());
-        }
-    }
+
+// getting data
+docRef.collection('nomes').get().then(function (querySnapshot){
+    querySnapshot.forEach(function (doc){
+        console.log(doc.id, " => ", doc.data());
+});
+})}
