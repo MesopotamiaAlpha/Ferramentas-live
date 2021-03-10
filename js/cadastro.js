@@ -1,40 +1,7 @@
-
-
-var variavel;
-//na linha de baixo ele vai criar a coleção com o documento nome
-const docRef = firestore.doc("nomes/subs");
-
-//aquele ele vai pegar o campo dentro do input do html para salvar 
-const inputTextField = document.querySelector("#inputNome");
-
-
-//aqui ele chama a ação do save button no html
-const saveButton = document.querySelector("#saveButton");
-
-
-//função de salvar no banco de dados
-saveButton.addEventListener("click", function() {
-    const textToSave = inputTextField.value;
-    console.log("Eu vou salvar " + textToSave + " no Firestore " + docRef.id);
-    docRef.set({
-        
-        //status nome vai ser o nome do campo para registrar no bd
-        nickSub: textToSave
-    }).then(function (){
-        window.alert("Status salvado!");
-        recuperarNomes();
-    }).catch(function  (error) {
-        window.alert("aconteceu um erro: ", error);
-    });
-    })
-
-
-
-    function recuperarNomes(){
-
-// getting data
-docRef.collection('nomes').get().then(function (querySnapshot){
-    querySnapshot.forEach(function (doc){
-        console.log(doc.id, " => ", doc.data());
+//teste de gravação de dados, e desta forma esta gravando corretamente
+var nomeSalvar = mongoose.model('nomes', {nome: String});
+var salvarDb = new nomeSalvar({nome: 'djzefx'});
+salvarDb.save(function (err) {
+    if (err) throw err;
+    console.log('Dados salvos com sucesso!');
 });
-})}
