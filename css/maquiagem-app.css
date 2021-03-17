@@ -23,12 +23,13 @@
 
 
 .marquee {
-    overflow: hidden;
+
     position: relative;
     list-style-type: none;
     text-align: center;
     animation: slider linear infinite;
     z-index: -1;
+
 }
 
 .marquee li { line-height: 70px; width: 100vw; } 
