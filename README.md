@@ -22,10 +22,15 @@
 
 <p>Biblioteca usada para animação do svg = http://snapsvg.io/</p>
 
-<p>Banco de dados usado de momento é MongoDb</p>
+<p>Durante o desenvolvimento encontrei varios problemas para colocar o banco de dados para funcionar, e durante varias mudanças decidi voltar para o Firestore.<p>
 
-<p> Para conecxão é usado o Mongoose <a src="https://mongoosejs.com/"></p>
 
-<p>Usando Express para mandar os comandos para o nodejs</p>
 
-<p>Usando nodemon para live reload dos aquivos nodejs, para instalar é npm install nodemon -g, para rodar é nodemon arquivo.js</p>
+
+<p><s>Banco de dados usado de momento é MongoDb</s></p>
+
+<p> <s>Para conecxão é usado o Mongoose <a src="https://mongoosejs.com/"></s></p>
+
+<p><s>Usando Express para mandar os comandos para o nodejs</s></p>
+
+<p><s>Usando nodemon para live reload dos aquivos nodejs, para instalar é npm install nodemon -g, para rodar é nodemon arquivo.js</s></p>

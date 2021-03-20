@@ -7,7 +7,12 @@
     <title>Lista de agradecimentos</title>
 
     <link rel="stylesheet" href="css/maquiagem.css">
-
+    <!--FUNCIONANDO SOMENTE COM O REAL TIME DATABASE-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
 
 </head>
 <body>
@@ -18,9 +23,11 @@
     </section>
 
     <section class="cofiguracoes">
-        <h2 id="nomeOutput">Nomes dos Subs</h2>
-        <input type="text" placeholder="nome" id="inputNome">
-        <button id="saveButton">Enviar</button>
+
+        <h1>Campos para registro dentro do banco de dados</h1>
+        <input type="text" placeholder="nome" class="input" id="Nome">
+        <input type="text" placeholder="sobre" class="input" id="SobreNome">
+        <button id="saveButton" onclick="writeData()">Enviar</button>
 
     </section>
 
@@ -32,6 +39,22 @@
 
 </section>
 
-<script src="js/express.js"></script>
+<section>
+
+
+
+
+    <br>
+    <br><br>
+    <h1>Leitura dentro do banco de dados</h1>
+
+
+    <p id="data"></p>
+    <script src="js/gravar-realtime.js"></script>
+</section>
+
+
+<script src="js/fire.js"></script>
+
 </body>
 </html>
