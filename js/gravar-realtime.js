@@ -1,9 +1,10 @@
 
 
 function writeData(){
-    firebase.database().ref("usuario").set({
+    firebase.database().ref("cenaMaquiagem").set({
+        tipo: document.getElementById("Tipo").value,
         nome: document.getElementById("Nome").value,
-        sobre: document.getElementById("SobreNome").value
+        marca: document.getElementById("Marca").value
     });
     getData();
 }
@@ -14,7 +15,7 @@ function getData(){
         {
             var childKey = childSnapshot.key;
             var childData = childSnapshot.val();
-            document.getElementById("data").innerHTML = childData['nome'] +", " + childData['sobre'];
+            document.getElementById("data").innerHTML = childData['tipo'] +", " + childData['nome']+ ", " + childData['marca'] ;
         })
     })
     
