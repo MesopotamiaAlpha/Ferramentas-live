@@ -1,7 +1,8 @@
 
 
 function writeData(){
-    firebase.database().ref("cenaMaquiagem").set({
+    var Index = document.getElementById("Index").value
+    firebase.database().ref("cenaMaquiagem/" + Index).set({
         tipo: document.getElementById("Tipo").value,
         nome: document.getElementById("Nome").value,
         marca: document.getElementById("Marca").value
@@ -20,3 +21,4 @@ function getData(){
     })
     
 }
+
