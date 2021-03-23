@@ -9,7 +9,7 @@
 }
 
 body{
-	background-color: #8206f754;
+background-color: #36393f;
 	font-family: 'DotGothic16', sans-serif;
 	font-weight: bold;
 }
@@ -24,6 +24,7 @@ body{
     background-color: blueviolet;
     margin-bottom: 3%;
 	text-align: center;
+	border: 5px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .corpo{
@@ -36,7 +37,13 @@ body{
     padding-left: 10%;
     padding-right: 10%;
     height: 100%;
-    background-color: aqua;
+	background: rgba( 236, 0, 255, 0.70 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 10.0px );
+	-webkit-backdrop-filter: blur( 10.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 22px;
@@ -61,7 +68,12 @@ body{
     padding-left: 10%;
     padding-right: 10%;
     height: 100%;
-    background-color: aqua;
+	background: rgba( 236, 0, 255, 0.70 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 10.0px );
+	-webkit-backdrop-filter: blur( 10.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 22px
