@@ -25,11 +25,13 @@
     <section class="cofiguracoes">
 
         <h1>Campos para registro dentro do banco de dados</h1>
+        <input type="text" placeholder="index" class="input" id="Index">
         <input type="text" placeholder="tipo" class="input" id="Tipo">
         <input type="text" placeholder="nome" class="input" id="Nome">
         <input type="text" placeholder="marca" class="input" id="Marca">
-        <input type="text" placeholder="index" class="input" id="Index">
         <button id="saveButton" onclick="writeData()">Enviar</button>
+        <button id="updateButton" onclick="updateData()">Atualizar</button>
+        <button id="deleteButton" onclick="deleteData()">Apagar</button>
 
     </section>
 
@@ -47,10 +49,11 @@
 
 
     <p id="data"></p>
-    <script src="js/gravar-realtime.js"></script>
+
 </section>
 
-
+<script src="js/gravar-realtime.js"></script>
+<script src="js/update-realtime.js"></script>
 <script src="js/fire.js"></script>
 
 </body>

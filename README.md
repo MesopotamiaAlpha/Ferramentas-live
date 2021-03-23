@@ -24,7 +24,9 @@
 
 <p>Durante o desenvolvimento encontrei varios problemas para colocar o banco de dados para funcionar, e durante varias mudanças decidi voltar para o Firestore.<p>
 
+<p>Primeiro instale o firebase</p>
 
+<p>Para iniciar um projeto com o firebase abra o terminal e começe com o comando firebase init para colocar algumas configurações do firebase. Para colocar o projeto em produção use firebase deploy</p>
 
 
 <p><s>Banco de dados usado de momento é MongoDb</s></p>

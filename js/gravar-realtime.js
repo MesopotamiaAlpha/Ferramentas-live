@@ -1,4 +1,6 @@
-
+var nome = document.getElementById("Nome");
+var tipo = document.getElementById("Tipo");
+var marca = document.getElementById("Marca");
 
 function writeData(){
     var Index = document.getElementById("Index").value
@@ -11,7 +13,7 @@ function writeData(){
 }
 
 function getData(){
-    firebase.database().ref ('/').once('value', function(snapshot){
+    firebase.database().ref ('cenaMaquiagem/').once('value', function(snapshot){
         snapshot.forEach(function(childSnapshot)
         {
             var childKey = childSnapshot.key;

@@ -52,3 +52,15 @@
     padding-left: 9px;
     padding-right: 9px;
 }
+
+#updateButton{
+    border: 2px solid #000;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+#deleteButton{
+    border: 2px solid #000;
+    padding-left: 9px;
+    padding-right: 9px;
+}
