@@ -24,7 +24,7 @@
 
 <p>Durante o desenvolvimento encontrei varios problemas para colocar o banco de dados para funcionar, e durante varias mudanças decidi voltar para o Firestore.<p>
 
-<p>Primeiro instale o firebase</p>
+<p>Primeiro instale o firebase https://firebase.google.com/docs/cli#install-cli-mac-linux</p>
 
 <p>Para iniciar um projeto com o firebase abra o terminal e começe com o comando firebase init para colocar algumas configurações do firebase. Para colocar o projeto em produção use firebase deploy</p>
 
