@@ -15,6 +15,6 @@ function getData(){
     
 }
 
-setTimeout(function() {
+/*setTimeout(function() {
     window.location.reload(1);
-  }, 25000); // 3 minutos
+  }, 25000); // 3 minutos*/

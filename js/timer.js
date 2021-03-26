@@ -80,7 +80,7 @@ class Countdown {
 }
 
 $(function() {
-    var yeah = new Countdown({minutes: 30, seconds: 01}, $(".c-container"));
+    var yeah = new Countdown({minutes: 20, seconds: 01}, $(".c-container"));
 })
 
 function piscar(){
