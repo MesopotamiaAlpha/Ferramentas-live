@@ -41,3 +41,19 @@ function deleteData(){
     rootRef.child(Index.value).remove();
     
 }
+
+
+firebase.collection("filaSubs/").where("state", "==", "CA")
+    .onSnapshot((snapshot) => {
+        snapshot.docChanges().forEach((change) => {
+            if (change.type === "added") {
+                console.log("New city: ", change.doc.data());
+            }
+            if (change.type === "modified") {
+                console.log("Modified city: ", change.doc.data());
+            }
+            if (change.type === "removed") {
+                console.log("Removed city: ", change.doc.data());
+            }
+        });
+    });
