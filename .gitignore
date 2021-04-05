@@ -1,10 +1,8 @@
 .DS_Store
 node_modules
 /dist
-/.firebase
+.firebase
 .firebaserc
-.database.rules.json
-.firebase.json
 
 
 # local env files
@@ -25,4 +23,6 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-/js/fire.js
+./js/fire.js
+database.rules.json
+firebase.json
