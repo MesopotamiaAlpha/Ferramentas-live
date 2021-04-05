@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 /dist
-.firebase
+firebase
 .firebaserc
 
 
@@ -23,8 +23,4 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-./js/fire.js
-database.rules.json
-firebase.json
 js/fire.js
-*.fire.js
