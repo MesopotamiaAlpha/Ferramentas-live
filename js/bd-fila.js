@@ -7,19 +7,6 @@ function writeData(){
         nick: document.getElementById("Nick").value
 
     });
-    getData();
-}
-
-function getData(){
-    firebase.database().ref ('filaSubs/').once('value', function(snapshot){
-        snapshot.forEach(function(childSnapshot)
-        {
-            var childKey = childSnapshot.key;
-            var childData = childSnapshot.val();
-            document.getElementById("data" + childKey).innerHTML = childData['nick'];
-        })
-    })
-    
 }
 
 function updateData(){
