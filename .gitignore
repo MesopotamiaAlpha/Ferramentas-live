@@ -25,4 +25,4 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-js/fire.js
+/js/fire.js
