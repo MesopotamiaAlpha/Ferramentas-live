@@ -27,4 +27,4 @@ pnpm-debug.log*
 database.rules.json
 firebase.json
 js/fire.js
-
+*.fire.js
