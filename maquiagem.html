@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de agradecimentos</title>
+
+    <link rel="stylesheet" href="css/maquiagem.css">
+    <!--FUNCIONANDO SOMENTE COM O REAL TIME DATABASE-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
+
+</head>
+<body>
+
+    <section class="barra">
+        <h1>Barra superior</h1>
+        <a href="index.html">Voltar</a>
+    </section>
+
+    <section class="cofiguracoes">
+
+        <h1>Campos para registro dentro do banco de dados</h1>
+        <input type="text" placeholder="index" class="input" id="Index">
+        <input type="text" placeholder="tipo" class="input" id="Tipo">
+        <input type="text" placeholder="nome" class="input" id="Nome">
+        <input type="text" placeholder="marca" class="input" id="Marca">
+        <button id="saveButton" onclick="writeData()">Enviar</button>
+        <button id="updateButton" onclick="updateData()">Atualizar</button>
+        <button id="deleteButton" onclick="deleteData()">Apagar</button>
+
+    </section>
+
+
+    <section class="app">
+
+        <iframe width="980" height="650" src="maquiagem-app.html"></iframe>
+
+
+</section>
+
+<section>
+
+    <h1>Leitura dentro do banco de dados</h1>
+
+
+    <p id="data"></p>
+
+</section>
+
+<script src="js/gravar-realtime.js"></script>
+<script src="js/update-realtime.js"></script>
+<script src="js/delete-realtime.js"></script>
+<script src="js/fire.js"></script>
+
+</body>
+</html>
