@@ -10,7 +10,7 @@
     for(var i in students) {
         var row = table.insertRow(-1);
         for(var j in students[i]) {
-               var cell = row.insertCell(-1);
+                var cell = row.insertCell(-1);
                 cell.innerHTML = students[i][j];
             }
         }
