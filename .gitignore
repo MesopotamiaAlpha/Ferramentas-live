@@ -6,6 +6,7 @@ node_modules
 .database.rules.json
 .firebase.json
 
+
 # local env files
 .env.local
 .env.*.local
@@ -24,3 +25,4 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+js/fire.js
