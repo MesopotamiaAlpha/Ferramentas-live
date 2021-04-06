@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de fila</title>
+    <title>Cena de maquiagem</title>
 
-    <link rel="stylesheet" href="css/fila-subs.css">
+    <link rel="stylesheet" href="css/maquiagem.css">
     <!--FUNCIONANDO SOMENTE COM O REAL TIME DATABASE-->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
@@ -18,6 +19,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
+
 <body>
 
     <section class="barra">
@@ -30,7 +32,7 @@
 
 
 
-        
+
         <h1>Campos para registro dentro do banco de dados</h1>
         <input type="text" placeholder="index" class="input" id="Index">
         <input type="text" placeholder="Nome" class="input" id="Nome">
@@ -50,25 +52,26 @@
         <section class="leitura-bd">
 
             <h1>Leitura dentro do banco de dados:</h1>
-        
+
             <table class="table table-striped marquee" id="table1">
-        
+
                 <tbody>
-                
+
             </table>
-        
-        
+
+
         </section>
 
         <iframe width="980" height="650" src="maquiagem-app.html"></iframe>
 
 
-</section>
+    </section>
 
 
 
-<script src="js/gravar-maquiagem.js"></script>
-<script src="js/fire.js"></script>
-<script src="js/maquiagem-atualizar-nome.js"></script>
+    <script src="js/gravar-maquiagem.js"></script>
+    <script src="js/fire.js"></script>
+    <script src="js/maquiagem-atualizar-nome.js"></script>
 </body>
+
 </html>
