@@ -64,3 +64,17 @@
     padding-left: 9px;
     padding-right: 9px;
 }
+
+.app{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-content: center;
+    align-items: flex-end;
+}
+
+.leitura-bd{
+    align-self: center;
+    text-align: center;
+    border: 2px solid #000;
+}

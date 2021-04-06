@@ -26,6 +26,9 @@
 
 .cofiguracoes{
   padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
   display: flex;
   justify-content: space-around;
   flex-flow: wrap;
@@ -48,11 +51,16 @@
 
 .botao{
   border: 2px solid #000;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .timer{
   width: 100%;
   height: 100%;
+  border: 2px solid #000;
 }
 
 .c-text {
@@ -70,7 +78,6 @@
 }
 
 iframe{
-  
   margin-left: 30%;
 }
 
@@ -127,4 +134,3 @@ iframe{
             inset 0 0 4rem var(--neon-border-color);        
     }  
 }
-

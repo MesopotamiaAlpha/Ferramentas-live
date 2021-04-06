@@ -1,74 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Fila subs app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <link rel="stylesheet" href="css/fila-subs-app.css">
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina do aplicativo</title>
-    <link rel="stylesheet" href="css/maquiagem-app.css">
-    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
-
-
-    <script src="js/fire.js"></script>
-    <script src="js/ler-realtime.js" onload="getData()";></script>
-
-</head>
-
-<body>
+  <body>
     <section class="quadro">
-        <section id="img-cima">
-            <img src="img/painel superior teste.png" alt="imagem">
-        </section>
-        <ul class="marquee">
-            <li>
-                <p id="data0"></p>
-            </li>
-            <li>
-                <p id="data1"></p>
-            </li>
-            <li>
-                <p id="data2"></p>
-            </li>
-            <li>
-                <p id="data3"></p>
-            </li>
-            <li>
-                <p id="data4"></p>
-            </li>
-            <li>
-                <p id="data5"></p>
-            </li>
-            <li>
-                <p id="data6"></p>
-            </li>
-            <li>
-                <p id="data7"></p>
-            </li>
-            <li>
-                <p id="data8"></p>
-            </li>
-            <li>
-                <p id="data9"></p>
-            </li>
-            <li>
-                <p id="data10"></p>
-            </li>
-            <li>
-                <p id="data11"></p>
-            </li>
-            <li>
-                <p id="data12"></p>
-            </li>
-        </ul>
+      <section id="img-cima">
+        <img src="img/painel superior teste.png" alt="imagem">
     </section>
 
+      <table class="table table-striped marquee" id="table1">
 
+    		<tbody>
+    		
+    	</table>
 
+ 
+  </section>
+  <script src="js/fire.js"></script>
+    <script src="js/maquiagem-atualizar-nome.js"></script>
     <script src="js/marquee.js"></script>
-</body>
-
+  </body>
 </html>
