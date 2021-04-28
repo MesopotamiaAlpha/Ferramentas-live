@@ -1,4 +1,5 @@
-[https://img.shields.io/badge/Teste-1-blue]
+<img src="https://img.shields.io/badge/Teste-1-blue" alt="Logo">
+
 <br />
 <p align="center">
   <a href="https://www.twitch.tv/livianormal">
