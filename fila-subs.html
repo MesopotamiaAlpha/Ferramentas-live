@@ -27,38 +27,47 @@
 
     <section class="cofiguracoes">
 
+
+
+
+        
         <h1>Campos para registro dentro do banco de dados</h1>
         <input type="text" placeholder="index" class="input" id="Index">
         <input type="text" placeholder="Nick" class="input" id="Nick">
         <button id="saveButton" onclick="writeData()">Enviar</button>
         <button id="updateButton" onclick="updateData()">Atualizar</button>
         <button id="deleteButton" onclick="deleteData()">Apagar</button>
+        <button class="input" onclick="copiarTabelaLivi()">Copiar link da tabela</button>
 
     </section>
 
 
     <section class="app">
 
+
+        <section class="leitura-bd">
+
+            <h1>Leitura dentro do banco de dados:</h1>
+        
+            <table class="table table-striped marquee" id="table1">
+        
+                <tbody>
+                
+            </table>
+        
+        
+        </section>
+
         <iframe width="980" height="650" src="fila-subs-app.html"></iframe>
 
 
 </section>
 
-<section>
 
-    <h1>Leitura dentro do banco de dados</h1>
-
-    <table class="table table-striped marquee" id="table1">
-
-        <tbody>
-        
-    </table>
-
-
-</section>
 
 <script src="js/bd-fila.js"></script>
 <script src="js/fire.js"></script>
 <script src="js/fila-subs-atualizar-nome.js"></script>
+<script src="js/copy.js"></script>
 </body>
 </html>

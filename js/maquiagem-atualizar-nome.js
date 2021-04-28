@@ -1,6 +1,6 @@
 (function() {
     var table = document.querySelector('#table1 tbody');
-    const dbEvaluationStudentsRef = firebase.database().ref().child('filaSubsLivi/');
+    const dbEvaluationStudentsRef = firebase.database().ref().child('cenaMaquiagem/');
     dbEvaluationStudentsRef.on('value', snap => {
     while(table.hasChildNodes()) {
             table.removeChild(table.firstChild);
