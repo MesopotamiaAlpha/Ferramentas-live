@@ -1,3 +1,4 @@
+[https://img.shields.io/badge/Teste-1-blue]
 <br />
 <p align="center">
   <a href="https://www.twitch.tv/livianormal">
