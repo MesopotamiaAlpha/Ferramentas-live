@@ -1,4 +1,14 @@
-<img src="https://img.shields.io/badge/Teste-1-blue" alt="Logo">
+<img src="https://img.shields.io/badge/Processo-Em%20desenvolvimento-red" alt="Badge processo">
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MesopotamiaAlpha/Ferramentas-live)
+
+![Lines of code](https://img.shields.io/tokei/lines/github/MesopotamiaAlpha/Ferramentas-live)
+
+![Twitch Status](https://img.shields.io/twitch/status/livianormal?style=social)
+
+![Website](https://img.shields.io/website?down_color=Red&down_message=Red&up_color=Green&up_message=Site%20online&url=https%3A%2F%2Fprojeto-live-ecaa3.firebaseapp.com%2Findex.html)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/MesopotamiaAlpha/Ferramentas-live)
 
 <br />
 <p align="center">
