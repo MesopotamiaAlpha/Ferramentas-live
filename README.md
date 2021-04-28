@@ -1,17 +1,7 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][[linkedin-url](https://www.linkedin.com/in/jos%C3%A9-ant%C3%B4nio-le%C3%A3o-gomes-306ab2192/)]
-
-
-
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://www.twitch.tv/livianormal">
-    <img src="img/tela de espera.png" alt="Logo" width="80" height="80">
+    <img src="img/tela de espera.png" alt="Logo" width="854" height="480">
   </a>
 
   <h3 align="center">Projeto Live</h3>
@@ -23,9 +13,6 @@
     <a href="https://projeto-live-ecaa3.firebaseapp.com/index.html">Conheça a ferramenta</a>
 </p>
 
-
-
-<!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Conteudo</summary>
   <ol>
@@ -44,8 +31,6 @@
 
 ## Sobre o projeto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Estas ferramentas estão sendo desenvolvidas para a live da <a target="_parent" type="link" href="https://www.twitch.tv/livianormal">Livianormal</a> e de momentos boa parte dessas ferramentas está buscando suprir as necessidades e melhorias desta live em especifico.</p>
 <p>Futuramente vamos melhorar a ferramentas para atender mais pessoas e ajudar com outras necessidades.</p>
 <p>Fururamente tambem vamos abrir um canal para sugestões de novas ferramentas, mas de momento vamos aprender a criar novas ferramentas para depois crescer!
@@ -57,7 +42,7 @@ This section should list any major frameworks that you built your project using.
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 * [CSS](https://www.w3schools.com/css/)
 * [Firebase](https://firebase.google.com/?hl=pt-br)
-* [Firebase](https://firebase.google.com/docs/database)
+* [Firebase Real Time Database](https://firebase.google.com/docs/database)
 
 ## Modo de Usar
 
