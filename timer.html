@@ -7,6 +7,7 @@
     <title>Timer par a a live da Livianormal</title>
     <link rel="stylesheet" href="/css/timer.css">
     <script src="js/copy.js"></script>
+
 </head>
 <body>
     <section class="barra">
@@ -16,8 +17,9 @@
 
     <section class="cofiguracoes">
         <p>Configure o seu tempo:</p>
-        <input class="caixa-pesquisa" type="text">Minutos</input>
-        <input class="caixa-pesquisa" type="text">Segundos</input>
+        <input class="caixa-pesquisa" id="minutos" type="text">Minutos</input>
+        <input class="caixa-pesquisa" id="segundos" type="text">Segundos</input>
+        <button class="botao" onclick="setTempo()">Set</button>
         <button class="botao" onclick="copiarTexto()">Copiar link do timer</button>
 
     </section>
@@ -26,7 +28,7 @@
 
     <section class="timer">
 
-        <iframe title="Iframe do timer" width="950" height="350" src="timer-app.html"></iframe>
+        <iframe id="iframe" title="Iframe do timer" width="950" height="350" src="timer-app.html"></iframe>
 
 
 </section>

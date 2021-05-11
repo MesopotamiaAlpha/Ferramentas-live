@@ -15,3 +15,15 @@ let copiarTabelaLivi = () =>{
     navigator.clipboard.writeText(inputTest);
     window.alert("Link da ferramenta copiada, cole no obs.")
 };
+
+
+/*
+var pai = parent.document.tempo;
+var exportar = pai.tempo.value;
+
+function setTempo(){
+    var min = document.getElementById("minutos").value;
+    var seg = document.getElementById("segundos").value;
+    console.log(min);
+    console.log(seg);
+}*/

@@ -1,5 +1,22 @@
 var audio = new Audio('/sons/alert-final2.mov');
 
+/*
+var meuIframe = document.getElementById("iframe");
+var conteudoIframe= meuIframe.contentDocument || meuIframe.contentWindow.document;
+
+var teste = conteudoIframe.tempo.value;
+*/
+
+$(function() {
+    var tempo = new Countdown({minutes: 20, seconds: 01}, $(".c-container"));
+})
+
+function piscar(){
+    const classe = document.querySelector('.c-container');
+    classe.setAttribute("class","c-container piscar");
+}
+
+
 class Util {
     static convertMS(ms) {
         var d, h, m, s;
@@ -77,14 +94,5 @@ class Countdown {
             }
         }, 200);
     }
-}
-
-$(function() {
-    var yeah = new Countdown({minutes: 20, seconds: 01}, $(".c-container"));
-})
-
-function piscar(){
-    const classe = document.querySelector('.c-container');
-    classe.setAttribute("class","c-container piscar");
 }
 
